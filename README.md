@@ -1,7 +1,6 @@
-How to properly install and operate siggen on Pi boards (NanoPi, Raspberry Pi ..) ?
+# siggen tools on Pi Boards
 ----
-
-# Abstract
+How to properly install and operate siggen on Pi boards (NanoPi, Raspberry Pi ..) ?
 
 siggen debian package is a set of tools for imitating a laboratory Signal Generator, generating audio signals out of Linux's /dev/dsp audio device. There is support for mono and/or stereo and 8 or 16 bit samples. The tools include:
 
@@ -35,9 +34,9 @@ But if you try to run one of these programs on NanoPi you will get the following
 
 :-(
 
-# Solution 
+## Solution 
 
-from <https://wiki.debian.org/SoundFAQ> (Q: How to enable ALSA OSS emulation? 
+from <https://wiki.debian.org/SoundFAQ> (Q: How to enable ALSA OSS emulation?)
 
     sudo apt-get install siggen alsa-oss
     git clone git@github.com:epsilonrt/siggen-onpi.git
