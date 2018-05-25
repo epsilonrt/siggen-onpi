@@ -1,6 +1,6 @@
 # siggen tools on Pi Boards
-----
-How to properly install and operate siggen on Pi boards (NanoPi, Raspberry Pi ..) ?
+
+**How to properly install and operate siggen on Pi boards (NanoPi, Raspberry Pi ..) ?**
 
 siggen debian package is a set of tools for imitating a laboratory Signal Generator, generating audio signals out of Linux's /dev/dsp audio device. There is support for mono and/or stereo and 8 or 16 bit samples. The tools include:
 
