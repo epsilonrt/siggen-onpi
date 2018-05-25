@@ -16,8 +16,12 @@ swept waveforms can be specified, along with the sweeping frequency and the swep
 * siggen: an Ncurses screen based Signal Generator for two separate
 channels. On stereo audio cards the two channels are played on separate outputs. On mono cards the two channels are digitally mixed onto the one output. Type of waveform, frequency, amplitude, sample rate etc are specified/changed via a screen menu. It plays continuously. Changes to parameters take effect nearly immediately.
 
+![siggen](https://raw.githubusercontent.com/epsilonrt/siggen-onpi/master/images/siggen.png)
+
 * sweepgen: an Ncurses screen based Sweep generator (see swgen and
 siggen above).
+
+![sweepgen](https://raw.githubusercontent.com/epsilonrt/siggen-onpi/master/images/sweepgen.png)
 
 * tones: a command line program to generate several successive tones
 of varying frequency, and optional differing waveforms, durations and intensities. The sequence of tones can be either played once, or repetitively or the samples can be written to a file in raw or WAV format. This could make the basis of an auto-dialer for tone phones.
@@ -26,6 +30,10 @@ of varying frequency, and optional differing waveforms, durations and intensitie
 mixer settings.
 
 * fsynth: an Ncurses based fourier synthesis realtime generator.
+
+![fsynth](https://raw.githubusercontent.com/epsilonrt/siggen-onpi/master/images/fsynth.png)
+
+## What is the problem ?
 
 But if you try to run one of these programs on NanoPi you will get the following message 
 
