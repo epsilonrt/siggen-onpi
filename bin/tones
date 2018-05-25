@@ -1,0 +1,10 @@
+#!/bin/sh
+#SIGGEN_PRG=/usr/bin/fsynth
+#SIGGEN_PRG=/usr/bin/siggen
+#SIGGEN_PRG=/usr/bin/signalgen
+#SIGGEN_PRG=/usr/bin/smix
+#SIGGEN_PRG=/usr/bin/soundinfo
+#SIGGEN_PRG=/usr/bin/sweepgen
+#SIGGEN_PRG=/usr/bin/swgen
+SIGGEN_PRG=/usr/bin/tones
+aoss $SIGGEN_PRG $*
